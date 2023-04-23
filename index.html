@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio - Luiz Fernando Sant'Ana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="body-container">
     <div class="open-container" id="open">
         <i class="fa-solid fa-bars" id="open-menu"></i>
-    </div>   
+    </div>
     <nav id="menu-hamb">
-        <div class="close-container" >
+        <div class="close-container">
             <div class="close-menu">
                 <i class="fa-solid fa-xmark" id="closebtn"></i>
             </div>
         </div>
         <ul class="menu-itens">
             <li class="item"><a href="#projetos">Projetos</li>
-                <li class="item"><a href="#formacao">Formação</li>
-                    <li class="item"><a href="#contato">Contato</li>
+            <li class="item"><a href="#formacao">Formação</li>
+            <li class="item"><a href="#contato">Contato</li>
         </ul>
     </nav>
     <header>
@@ -34,14 +36,13 @@
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#formacao">Formação</a></li>
                     <li><a href="#contato">Contato</a></li>
-                </ul 
+                </ul </div>
             </div>
-        </div>
     </header>
 
     <!-- Home -->
     <main id="about-me">
-        <div class="about-me" >
+        <div class="about-me">
             <h2> E aí!</h2>
             <h1>Eu sou <span class="name">Luiz Fernando Sant'Ana</span></h1>
             <h3>DESENVOLVEDOR FRONT-END</h3>
@@ -52,8 +53,10 @@
                 <strong>Javascript</strong>, <strong>React.JS</strong>
             </p>
             <div class="contact">
-                <a href="https://github.com/theluizsantana" target="_blank"><i class="fa-brands fa-square-github" id="github"></i></a>
-                <a href="https://www.linkedin.com/in/luizfernandosb" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                <a href="https://github.com/theluizsantana" target="_blank"><i class="fa-brands fa-square-github"
+                        id="github"></i></a>
+                <a href="https://www.linkedin.com/in/luizfernandosb" target="_blank"><i class="fa-brands fa-linkedin"
+                        id="linkedin"></i></a>
             </div>
         </div>
         <div class="about-img">
@@ -67,35 +70,54 @@
             <h2 class="projetos-title">Projetos</h2>
             <div class="projetos">
                 <div class="projeto-card">
-                    <div class="projeto-info">
-                        <h3 class="projeto-nome first">Projeto Title</h3>
-                        <p class="projeto-descricao first">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Facere repudiandae, animi eaque praesentium magni incidunt odio quisquam quaerat reiciendis
-                            libero culpa dicta corporis soluta aliquid tempore unde facilis nobis neque.</p>
+                    <div class="projeto-info primeiro-projeto">
+                        <h3 class="projeto-nome first">Previsão do tempo</h3>
+                        <p class="projeto-descricao first">
+                            Projeto de aplicativo web de previsão do tempo usando HTML, CSS e JavaScript, consumindo a
+                            API do OpenWeather para obter informações meteorológicas atualizadas e exibindo os dados em
+                            uma interface do usuário moderna e intuitiva.
                         <span class="linguagens first">
                             <i class="fa-brands fa-html5 html"></i>
                             <i class="fa-brands fa-square-js js"></i>
                             <i class="fa-brands fa-css3 css"></i>
+                            <a href="https://theluizsantana.github.io/previsao-tempo/" target="_blank"><i
+                                class="fa-solid fa-eye deploy"></i></a>
+                        <a href="https://github.com/theluizsantana/previsao-tempo" target="_blank"><i
+                                class="fa-solid fa-code code"></i></a>
                         </span>
                     </div>
                     <div class="projeto-img first-img">
-                        <img src="image/portifolio.png" alt="">
+                        <img src="image/projetoclima.png" alt="">
+                        <div class="proj-icons">
+                            <a href="https://theluizsantana.github.io/previsao-tempo/" target="_blank"><i
+                                    class="fa-solid fa-eye"></i></a>
+                            <a href="https://github.com/theluizsantana/previsao-tempo" target="_blank"><i
+                                    class="fa-solid fa-code"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="projeto-card">
 
                     <div class="projeto-img sec-img">
                         <img src="image/portifolio.png" alt="">
+                        <div class="proj-sec">
+                            <a href="https://github.com/theluizsantana/quiz-project" target="_blank"><i
+                                    class="fa-solid fa-code"></i></a>
+                        </div>
                     </div>
                     <div class="projeto-info">
-                        <h3 class="projeto-nome sec">Projeto Title</h3>
-                        <p class="projeto-descricao sec">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Facere repudiandae, animi eaque praesentium magni incidunt odio quisquam quaerat reiciendis
-                            libero culpa dicta corporis soluta aliquid tempore unde facilis nobis neque.</p>
+                        <h3 class="projeto-nome sec">Quiz</h3>
+                        <p class="projeto-descricao sec">Aplicativo web de perguntas e respostas, usando componentes
+                            React.JS para gerenciar o estado e oferecer uma experiência dinâmica.Pode incluir recursos
+                            como temporizador, barra de progresso e animações para uma experiência de usuário
+                            envolvente.</p>
                         <span class="linguagens sec">
+                            <i class="fa-brands fa-react react"></i>
                             <i class="fa-brands fa-html5 html"></i>
                             <i class="fa-brands fa-square-js js"></i>
                             <i class="fa-brands fa-css3 css"></i>
+                            <a href="https://github.com/theluizsantana/quiz-project" target="_blank"><i
+                                class="fa-solid fa-code code"></i></a>
                         </span>
                     </div>
                 </div>
@@ -110,7 +132,7 @@
             <div class="formacao">
                 <div class="formacao-card">
                     <p class="nivel">Tecnólogo</p>
-                    <h3 class="curso">Gestão da Tecnologio de Informação</h3>
+                    <h3 class="curso">Gestão da Tecnologia de Informação</h3>
                     <p class="instituicao">Estácio de Sá</p>
                     <span class="conclusao">2022 - 2024</span>
                 </div>
@@ -176,7 +198,7 @@
                     <h3 class="soft-title"><span class="bloco"></span>Soft Skills</h3>
                     <table>
                         <tr>
-                            <td>Ingles - intermediário</td>
+                            <td>Inglês - intermediário</td>
                         </tr>
                         <tr>
                             <td>Português - nativo</td>
@@ -208,14 +230,15 @@
             <div class="contato-outros">
                 <p>ou</p>
                 <div class="contact">
-                    <a href="https://www.linkedin.com/in/luizfernandosb" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/luizfernandosb" target="_blank"><i
+                            class="fa-brands fa-linkedin" id="linkedin"></i></a>
                 </div>
             </div>
         </div>
     </div>
     </div>
     <span id="to-top"><a id="toplink" href="#open"><i class="fa-solid fa-circle-up" id="topic"></i></a></span>
-    
+
     <!-- Rodapé -->
 
     <footer>
@@ -224,9 +247,9 @@
                 © Luiz Fernando Sant'Ana - Todos os direitos reservados
             </p>
         </div>
-       
+
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
