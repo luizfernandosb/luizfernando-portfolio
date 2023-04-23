@@ -20,6 +20,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.responsivo {
+    visibility: hidden;
+}
+
 header {
     background-color: var(--main-color);
     width: 100%;
@@ -200,6 +204,16 @@ footer {
     display: flex;
     flex-direction: row;
     margin-bottom: 80px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.linguagens {
+    display: flex;
+    flex-direction: row;
 }
 
 .linguagens-responsivo {
@@ -691,4 +705,8 @@ footer {
         text-align: center;
     }
 
+    .responsivo {
+        visibility: visible;
+    }
+    
 }
