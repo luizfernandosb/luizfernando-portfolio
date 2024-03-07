@@ -96,12 +96,15 @@ a {
 
 
 .about-img img {
+    margin-top: 100px;
     width: 300px;
+    align-self: flex-start;
+    border-radius: 100%;
 }
 
 .about-img {
     justify-content: center;
-    align-items: center;
+
     display: flex;
     border-bottom: 1px solid black;
 
