@@ -1,6 +1,7 @@
 'use client'
 
 import { useLanguage } from '@/components/language-provider'
+import ProfileImg from '@/public/images/luiz-profile.jpeg'
 
 export function ProfileCard() {
   const { t } = useLanguage()
@@ -10,7 +11,7 @@ export function ProfileCard() {
       <div className="relative h-28 w-28 overflow-hidden rounded-full border-2 border-accent">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/luiz-profile.jpeg"
+          src={ProfileImg.src}
           alt="Luiz Fernando"
           className="h-full w-full object-cover"
         />

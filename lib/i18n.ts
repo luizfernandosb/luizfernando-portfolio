@@ -29,9 +29,9 @@ export const dictionary = {
       name: "Luiz Fernando Sant'Ana Bezerra",
       summary:
         'Construo aplicações web e mobile escaláveis, com integração robusta de APIs e foco real em performance, usabilidade e código limpo.',
-      cta1: 'Ver Projetos',
+      cta1: 'Ver Experiência',
       cta2: 'Contato',
-      location: 'São Paulo, Brasil',
+      location: 'Brasil',
       available: 'Disponível para projetos',
     },
     about: {
@@ -136,9 +136,9 @@ export const dictionary = {
       name: "Luiz Fernando Sant'Ana Bezerra",
       summary:
         'I build scalable web and mobile applications, with robust API integration and a real focus on performance, usability and clean code.',
-      cta1: 'View Projects',
+      cta1: 'View Experience',
       cta2: 'Contact',
-      location: 'São Paulo, Brazil',
+      location: 'Brazil',
       available: 'Available for projects',
     },
     about: {
